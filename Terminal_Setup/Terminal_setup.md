@@ -17,7 +17,7 @@
     powerlevel10k
 
 ### Now let's do the setup of oh-my-zsh tool.
-    ## ogmyzsh Git Repository 
+    ogmyzsh Git Repository 
         https://github.com/ohmyzsh/ohmyzsh
 
     Install the git by below command
