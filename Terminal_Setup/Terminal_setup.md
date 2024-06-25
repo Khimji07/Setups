@@ -13,33 +13,34 @@
 ## Apply the shell change need to relogin the user.
 
 ## After login the user zsh ask to confiure it bur we can leave it by pressing "0" and we do the manual configuration with adding some extra tools like below.
-    ohmyzsh
-    zsh-autosuggestions
-    zsh-syntax-highlighting
-    powerlevel10k
+    1) ohmyzsh
+    2) zsh-autosuggestions
+    3) zsh-syntax-highlighting
+    4) powerlevel10k
 
 ## Now let's do the setup of oh-my-zsh tool.
 
-### ohmyzsh Git Repository 
-    https://github.com/ohmyzsh/ohmyzsh
+###     ohmyzsh Git Repository 
+            https://github.com/ohmyzsh/ohmyzsh
 
-### Install the git by below command
-    apt install git
+###     Install the git by below command
+            apt install git
 
 ### Run command in terminal for install ohmyzsh
     Command sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 ## Now let's do the setup of the zsh-autosuggestions.
-    zsh-autosuggestions Git Repository
-        https://github.com/zsh-users/zsh-autosuggestions
 
-    Need to add zsh-autosuggestions in oh-my-zsh shell via cloning the repository.
-        git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+###     zsh-autosuggestions Git Repository
+    https://github.com/zsh-users/zsh-autosuggestions
+
+###     Need to add zsh-autosuggestions in oh-my-zsh shell via cloning the repository.
+    git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
     
-    Add the plugin to the list of plugins for Oh My Zsh to load (inside ~/.zshrc):
-        plugins=(git zsh-autosuggestions)
+###     Add the plugin to the list of plugins for Oh My Zsh to load (inside ~/.zshrc):
+    plugins=(git zsh-autosuggestions)
 
-    After adding the plugin Start a new terminal session.
+###     After adding the plugin Start a new terminal session.
 
 ## Now let's do the setup of the zsh-syntax-highlighting.
     zsh-syntax-highlighting Git Repository
