@@ -20,14 +20,14 @@
 
 ## Now let's do the setup of oh-my-zsh tool.
 
-### ogmyzsh Git Repository 
-        https://github.com/ohmyzsh/ohmyzsh
+### ohmyzsh Git Repository 
+    https://github.com/ohmyzsh/ohmyzsh
 
-    Install the git by below command
-        apt install git
+### Install the git by below command
+    apt install git
 
-    Run command in terminal for install ohmyzsh
-        Command sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+### Run command in terminal for install ohmyzsh
+    Command sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 ## Now let's do the setup of the zsh-autosuggestions.
     zsh-autosuggestions Git Repository
