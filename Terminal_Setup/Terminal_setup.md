@@ -1,23 +1,26 @@
-### First we need to update the system 
+# Terminal Setup 
+
+## First we need to update the system 
     sudo apt-get update
 
-### After Updating the system, need to install zsh 
+## After Updating the system, need to install zsh 
     sudo apt install zsh
 
-### After installing the zsh, we need to change our current shell to zsh 
+## After installing the zsh, we need to change our current shell to zsh 
     chsh
         /bin/zsh
 
-### Apply the shell change need to relogin the user.
+## Apply the shell change need to relogin the user.
 
-### After login the user zsh ask to confiure it bur we can leave it by pressing "0" and we do the manual configuration with adding some extra tools like below.
+## After login the user zsh ask to confiure it bur we can leave it by pressing "0" and we do the manual configuration with adding some extra tools like below.
     ohmyzsh
     zsh-autosuggestions
     zsh-syntax-highlighting
     powerlevel10k
 
-### Now let's do the setup of oh-my-zsh tool.
-    ogmyzsh Git Repository 
+## Now let's do the setup of oh-my-zsh tool.
+
+### ogmyzsh Git Repository 
         https://github.com/ohmyzsh/ohmyzsh
 
     Install the git by below command
@@ -26,7 +29,7 @@
     Run command in terminal for install ohmyzsh
         Command sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-### Now let's do the setup of the zsh-autosuggestions.
+## Now let's do the setup of the zsh-autosuggestions.
     zsh-autosuggestions Git Repository
         https://github.com/zsh-users/zsh-autosuggestions
 
@@ -38,7 +41,7 @@
 
     After adding the plugin Start a new terminal session.
 
-### Now let's do the setup of the zsh-syntax-highlighting.
+## Now let's do the setup of the zsh-syntax-highlighting.
     zsh-syntax-highlighting Git Repository
         https://github.com/zsh-users/zsh-syntax-highlighting
 
@@ -50,7 +53,7 @@
 
     Restart zsh (such as by opening a new instance of your terminal emulator).
 
-### Now let's do the setup of the powerlevel10k.
+## Now let's do the setup of the powerlevel10k.
     powerlevel10k Git Repository
         https://github.com/romkatv/powerlevel10k
 
@@ -65,6 +68,6 @@
 
     After adding the theme restart the terminal
 
-### After start the terminal they will ask for configuring powerlevel10k tools and then setup the tool configuration as you like.
+## After start the terminal they will ask for configuring powerlevel10k tools and then setup the tool configuration as you like.
 
-### Enjoy. 
+## Enjoy. 
